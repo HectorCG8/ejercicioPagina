@@ -84,10 +84,15 @@
             <label for="confirm-password">Confirmar Contraseña</label>
             <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirma tu contraseña" required>
 
-            <button type="submit">Registrar</button>
+            <div style="display: flex; gap: 10px;">
+                <a href="index.html" style="text-decoration: none;">
+                    <button type="button">Regresar</button>
+                </a>
+                <button type="submit">Registrar</button>
+            </div>
         </form>
     </div>
-    <script>
+<script>
         const form = document.querySelector('form');
         const password = document.getElementById('password');
         const confirmPassword = document.getElementById('confirm-password');
@@ -98,6 +103,6 @@
                 alert('Las contraseñas no coinciden');
             }
         });
-    </script>
+</script>
 </body>
 </html>
