@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Start Page</title> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+
+        <style> 
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0; 
+        } 
+        .header { 
+            background-color: #F44336; 
+            padding: 100px; 
+            text-align: center; 
+            color: white; 
+        } 
+        .header .button { 
+            background-color: black; 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            display: inline-block; 
+            margin-top: 10px; 
+        } 
+        .section, .section2 { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 20px; 
+            padding: 50px; 
+            width: 100%; 
+            margin: 0; 
+        }
+        .section { 
+            background-color: white; 
+        }
+        .section2 { 
+            background-color: rgba(233, 229, 229, 0.625); 
+        }
+        .section div, .section2 div { 
+            width: 100%; 
+            margin: 0; 
+            max-width: 550px;
+        }
+        .footer { 
+            background-color: #605f5f; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+            margin: 0; 
+        } 
+        .social-icons {
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        }
+        .final { 
+            background-color: white; 
+            text-align: center; 
+            padding: 20px; 
+        }
+        .final { 
+            color: grey; 
+        }
+        nav { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            display: flex; 
+            width: 100%; 
+            margin: 0; 
+            padding: 0; 
+            box-shadow: 0 3px 3px rgba(53, 53, 53, 0.3); 
+        }
+        nav .nav-container { 
+            display: flex;
+            background-color: #F44336; 
+            text-align: left; 
+            width: 100%; 
+        }
+        nav a { 
+            padding: 10px 15px; 
+            text-decoration: none; 
+            display: inline-block; 
+            white-space: nowrap;
+        }
+        nav a.home { 
+            background-color: white; 
+            color: black; 
+        }
+        nav a.link { 
+            color: white; 
+        }
+        nav a.link:hover {
+        background-color: #d32f2f;
+        color: white; 
+        transition: background-color 0.3s ease;
+        }
+        nav .registro {
+        background-color: #F44336;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        }
+        nav .registro:hover {
+        background-color: #d32f2f;
+        }
+        @media (max-width: 430px) {
+        nav {
+            flex-wrap: wrap;
+        }
+        nav .nav-container {
+            width: 100%;
+        }
+        nav .nav-container a {
+            width: 100%;
+        }
+        nav .registro {
+            margin-top: 10px;
+            width: 100%; 
+            text-align: left;
+        }
+    }
+        </style>
+    </head> 
+    <body> 
+        <div class="header"> 
+            <nav>
+                <div class="nav-container">
+                    <a href="#" class="home">Home</a>
+                    <a href="#" class="link">Link 1</a>
+                    <a href="#" class="link">Link 2</a>
+                    <a href="#" class="link">Link 3</a>
+                    <a href="#" class="link">Link 4</a>
+                </div>
+                <a href="registro.html" class="link registro">Registro</a>
+            </nav>
+            <h1>START PAGE</h1>
+            <p>Template by w3.css</p> 
+            <a href="#" class="button" style="color: white;">Get Started</a>
+        </div> 
+        <div class="section">
+            <div> 
+                <h2>Lorem Ipsum</h2> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p style="color: #747272;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repellat molestias aut tenetur corrupti laborum quis sed alias excepturi magnam praesentium exercitationem aspernatur, rerum aliquam ipsa neque eaque odit. Ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, explicabo nemo. Quod alias nam quas quam doloremque dolorem aliquam accusamus quisquam odit a deserunt, porro consectetur perferendis corrupti illum nesciunt!</p> 
+            </div> 
+            <img src="Ancla.png" alt="Icono Ancla" style="width: 200px; height: 150px;"> 
+        </div>
+        <div class="section2">  
+            <img src="Taza.png" alt="Icono Taza" style="width: 200px; height: 150px;">
+            <div>
+                <h2>Lorem Ipsum</h2> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestias sunt voluptatum.</p> 
+                <p style="color: #747272;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magnam veritatis quasi facilis, iste sint excepturi, accusantium aperiam repellendus vel enim quisquam ex eligendi qui necessitatibus dolore molestiae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, iste est obcaecati culpa placeat dicta! Delectus labore modi praesentium alias voluptates, sapiente assumenda. Adipisci libero ut explicabo, impedit consequuntur laudantium!</p> 
+            </div>
+        </div>
+        <div class="footer">
+            <p>Quote of the day: live life</p> 
+        </div> 
+        <div class="social-icons">  
+            <a href="https://facebook.com/"> 
+                <img src="facebook.png" alt="Facebook" style="width: 24px; height: auto;">
+            </a>
+            <a href="https://instagram.com/">
+                <img src="instagram.png" alt="Instagram" style="width: 24px; height: auto;">
+            </a>
+            <a href="https://snapchat.com/">  
+                <img src="snapchat.png" alt="Snapchat" style="width: 24px; height: auto;"> 
+            </a>
+            <a href="https://pinterest.com/">
+                <img src="pinterest.png" alt="Pinterest" style="width: 24px; height: auto;"> 
+            </a>
+            <a href="https://x.com/">
+                <img src="twitter.png" alt="Twitter" style="width: 24px; height: auto;"> 
+            </a>
+            <a href="https://linkedin.com/">
+                <img src="linkedin.png" alt="Linkedin" style="width: 24px; height: auto;"> 
+            </a>
+        </div>
+        <div class="final"> 
+            <p>Powered by w3.css</p> 
+        </div>                     
+    </body> 
+</html>
